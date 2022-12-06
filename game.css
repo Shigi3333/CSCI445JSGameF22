@@ -1,0 +1,23 @@
+h1 {
+  color: #3D0814;
+	font-family: courier, monospace;
+	text-align: center;
+}
+
+h2 {
+	font-family: courier, monospace;
+	text-align: center;
+}
+
+body {
+	background-color: #357266;
+}
+
+#canvas {
+	width: 30em;
+	height: 20em;
+}
+
+#game-holder {
+	text-align: center;
+}
