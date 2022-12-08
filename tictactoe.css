@@ -1,0 +1,57 @@
+.board {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 10vw;
+  height: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  color: #3D0814;
+	font-family: courier, monospace;
+	text-align: center;
+}
+
+h2 {
+	font-family: courier, monospace;
+	text-align: center;
+}
+
+body {
+	background-color: #357266;
+}
+
+#game-holder {
+	text-align: center;
+}
+
+body {
+  font-family: courier, monospace;
+}
+
+span {
+  font-weight: bolder;
+}
